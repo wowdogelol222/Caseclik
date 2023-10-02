@@ -4,6 +4,7 @@
 var itemCounter = 0;
 var fps = 15;
 
+var money = 7500;
 var username = localStorage.getItem('username');
 if (localStorage.getItem("username") === null) {
 	localStorage.setItem('username' , "Player 1 (You)")
@@ -14,7 +15,7 @@ if (localStorage.getItem("imgData") === null) {
 }
 
 var currentCase = "case1";
-var acceptMoneyPerClick = 10.0;
+var acceptMoneyPerClick = 100;
 
 /*=========================Inventory============================*/
 //In inventory: weap skins
